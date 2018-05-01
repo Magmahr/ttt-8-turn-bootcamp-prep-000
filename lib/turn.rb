@@ -45,9 +45,7 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index, value = "X")
   elsif 
-    until valid_move?(board, index) == true
-      puts "Please enter 1-9:"
-    end
+    turn(board)
   end
   display_board(board)
 end  
