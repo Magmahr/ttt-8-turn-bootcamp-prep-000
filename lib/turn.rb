@@ -48,5 +48,4 @@ def turn(board)
   elsif 
     turn(board)
   end
-  
 end  
